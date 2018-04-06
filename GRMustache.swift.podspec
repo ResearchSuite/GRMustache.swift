@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
 	s.name     = 'GRMustache.swift'
-	s.version  = '2.1.0'
+	s.version  = '2.1.1'
 	s.license  = { :type => 'MIT', :file => 'LICENSE' }
 	s.summary  = 'Flexible Mustache templates for Swift.'
-	s.homepage = 'https://github.com/groue/GRMustache.swift'
+	s.homepage = 'https://github.com/ResearchSuite/GRMustache.swift'
 	s.author   = { 'Gwendal Roué' => 'gr@pierlis.com' }
-	s.source   = { :git => 'https://github.com/groue/GRMustache.swift.git', :tag => s.version }
+	s.source   = { :git => 'https://github.com/ResearchSuite/GRMustache.swift.git', :tag => s.version }
 	s.source_files = 'Sources/**/*.{h,m,swift}', 'ObjC/**/*.{h,m,swift}'
 	s.module_name = 'Mustache'
 	s.ios.deployment_target = '8.0'
