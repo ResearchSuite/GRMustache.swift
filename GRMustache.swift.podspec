@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name     = 'GRMustache.swift'
-	s.version  = '2.1.2'
+	s.version  = '2.2.0'
 	s.license  = { :type => 'MIT', :file => 'LICENSE' }
 	s.summary  = 'Flexible Mustache templates for Swift.'
 	s.homepage = 'https://github.com/ResearchSuite/GRMustache.swift'
@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
 	s.tvos.deployment_target = '9.0'
 	s.requires_arc = true
 	s.framework = 'Foundation'
-	s.swift_version = '3.2'
+	s.swift_version = '4.0'
 end

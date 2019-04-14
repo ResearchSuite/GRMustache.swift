@@ -72,7 +72,7 @@ extension MustacheBox {
     
     /// `MustacheBox` adopts the `MustacheBoxable` protocol so that it can feed
     /// Mustache templates. Its mustacheBox property returns itself.
-    public override var mustacheBox: MustacheBox {
+    @objc public override var mustacheBox: MustacheBox {
         return self
     }
 }
