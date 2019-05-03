@@ -68,7 +68,7 @@ public protocol MustacheBoxable {
     var mustacheBox: MustacheBox { get }
 }
 
-extension MustacheBox {
+@objc extension MustacheBox {
     
     /// `MustacheBox` adopts the `MustacheBoxable` protocol so that it can feed
     /// Mustache templates. Its mustacheBox property returns itself.

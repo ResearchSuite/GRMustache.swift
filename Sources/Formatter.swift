@@ -25,7 +25,7 @@ import Foundation
 
 
 /// Formatter can format template values.
-extension Formatter {
+@objc extension Formatter {
     
     /// Formatter adopts the `MustacheBoxable` protocol so that it can feed
     /// Mustache templates.
